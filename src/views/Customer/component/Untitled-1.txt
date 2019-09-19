@@ -1,0 +1,325 @@
+<div className="Customer">
+      <DndProvider backend={HTML5Backend}>
+      <div className="container" >
+        <div className="row">
+          <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10 content-left">
+            <h2 style={{textAlign:"center"}}>Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam </h2>
+            <h4 style={{textAlign:"center"}}>Độc Lập - Tự Do - Hạnh Phúc </h4><br />
+            <p style={{textAlign:"right"}}>Khánh hòa ............., Ngày......., tháng......, năm.....</p><br/>
+            <h3 style={{textAlign:"center",marginBottom:"50px"}}>
+              GIẤY ĐỀ NGHỊ ĐĂNG KÍ DOANH NGHIỆP <br/>
+              DOANH NGHIỆP TƯ NHÂN
+            </h3>
+            <div className="group-inline fl-end form-horizontal">
+              <label style={{fontSize:"16px"}}>Kính gửi: Phòng đăng kí kinh doanh tỉnh, thành phố</label>
+              <ExampleTwo />
+             </div>
+            <div className="one"  >
+              <div className="row">               
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                  <p>Tôi là:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                <p>Giới tính:  </p>
+                  <ExampleTwo />
+                </div>
+              </div>
+           </div>
+           <div className="two" style={{display:"flex", flexDirection:"row"}}  >
+                 <div className="row">           
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                    <p>Ngày sinh:  </p>
+                    <ExampleTwo />  
+                </div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                <p>Dân tộc:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                <p>Quốc tịch:  </p>
+                  <ExampleTwo />
+                </div>
+          </div>
+          </div>
+          <div className="three"  >
+              <div className="row">
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 group-inline">
+                <p>Số CMND  </p>
+                  <ExampleTwo />
+                </div>
+              </div>
+          </div>
+          <div className="four"  >
+              <div className="row">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                  <p>SĐT:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                <p>FAX:  </p>
+                  <ExampleTwo />
+                </div>
+              </div>
+           </div>
+           <div className="five"  >
+              <div className="row"> 
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                  <p>Email:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                <p>WEBSITE:  </p>
+                  <ExampleThree />  
+                </div>
+              </div>
+           </div>
+          <div className="six" >
+            <p>Loại giấy tờ chứng thực cá nhân</p>
+            .<div className="row">
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 fl-col">
+                  <label ><input type="radio" name="optradio1"  />Chứng Minh Nhân Dân</label>
+                  <label ><input type="radio" name="optradio1" />Hộ Chiếu</label>
+                </div>
+                <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 fl-col">
+                  <label ><input type="radio" name="optradio1" />Căn Cước Công Dân</label>
+                  <div className="radio-inline">
+                    <label ><input type="radio" name="optradio1" />Loại khác(ghi rõ)</label>
+                    <input type="text" />
+                  </div>
+  
+                </div>    
+            </div>
+            .<div className="row">
+                
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                  <p>Ngày cấp:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                  <p>Nới cấp:  </p>
+                  <ExampleTwo />
+                </div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 group-inline">
+                  <p>Ngày hết hạn:  </p>
+                  <ExampleTwo />
+                </div>
+                
+            </div>
+          </div> 
+          <div className="sevent">
+              <p>Nơi đăng kí hộ khẩu thường trú</p>
+              <p>Số nhà/ngách/hẻm/ngõ/đường/phố/ấp/thôn</p>
+              .<div className="row">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 full">
+                    <ExampleTwo />
+                  </div>
+
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Xã/Phường/Thị trấn:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 2 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Quận/Huyện/Thành Phố thuộc tỉnh:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 3 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Tỉnh/Thành phố:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 4 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Quốc Gia:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 5 */}
+                  <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>Điện thoại:  </p>
+                        <ExampleTwo />
+                      </div>
+                      <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>FAX:  </p>
+                        <ExampleThree />  
+                  </div>
+                  {/* 6 */}
+                  <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>Email:  </p>
+                        <ExampleTwo />
+                      </div>
+                      <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>WEBSITE:  </p>
+                        <ExampleThree />  
+                  </div>
+
+  
+              </div>
+              .<div className="row">
+                  
+                  
+              </div>
+          </div>
+          <div className="eight">
+            <p>Đăng kí doanh nghiệp tư nhân do tôi làm chủ với các nội dung sau:</p>
+            <ol>
+              <div className="itemOl">
+                <li>Tình trạng thành lập(Đánh X vào ô thích hợp)</li>
+                <div className="row">
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 fl-col-12">
+                    <label ><input type="radio" name="optradio2"  />Thành lập mới</label>
+                  </div>
+                  <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 fl-col-12">
+                    <label ><input type="radio" name="optradio2" />Thành lập trên cơ sở chuyển từ hộ kinh doanh</label>
+                  </div>
+                </div>
+              </div>
+              <div className="itemOl">
+                <li>Tên doanh nghiệp</li>
+                <div className="row">
+                  <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <p>Tên Doanh Nghiệp Viết Bằng Tiếng Việt  </p>
+                    </div>
+                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                      <ExampleTwo />
+                  </div>
+                  {/* 2 */}
+                  <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <p>Tên Doanh Nghiệp Viết Bằng Tiếng Nước Ngoài  </p>
+                    </div>
+                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                      <ExampleTwo />
+                  </div>
+                  {/* 3 */}
+                  <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <p>Tên Doanh Nghiệp Viết Tắt  </p>
+                    </div>
+                    <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                      <ExampleTwo />
+                  </div>
+                </div>
+                </div>
+                <div className="itemOl">
+                <li>Địa chỉ trụ sở chính</li>
+                <p>Số nhà/ngách/hẻm/ngõ/đường/phố/ấp/thôn</p>
+              .<div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 full">
+                    <ExampleTwo />
+                  </div>
+
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Xã/Phường/Thị trấn:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 2 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Quận/Huyện/Thành Phố thuộc tỉnh:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 3 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Tỉnh/Thành phố:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 4 */}
+                  <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                    <p>Quốc Gia:  </p>
+                  </div>
+                  <div className="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                    <ExampleTwo />
+                  </div>
+                  {/* 5 */}
+                  <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>Điện thoại:  </p>
+                        <ExampleTwo />
+                      </div>
+                      <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>FAX:  </p>
+                        <ExampleThree />  
+                  </div>
+                  {/* 6 */}
+                  <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>Email:  </p>
+                        <ExampleTwo />
+                      </div>
+                      <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 group-inline">
+                      <p>WEBSITE:  </p>
+                        <ExampleThree />  
+                  </div>
+                  <div className="form-check">
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1" />
+                    <label className="form-check-label" for="exampleCheck1">
+                      Doanh nghiệp nằm trong khu công nghiệp, khu chế xuất,khu kinh tế, khu công nghệ cao.
+                      (Đánh dâu X vào ô vuông nếu doanh nghiệp đăng kí địa chỉ trụ sở chính nằm trong khu công nghiệp, khu chế xuất, khu kinh tế)
+                    </label>
+                  </div>
+              </div>  
+              </div>
+              <div className="itemOl">
+                <li>Ngành nghề kinh doanh(Ghi tên và mã theo ngành cấp 4 trong hệ thống ngành kinh tế của Việt Nam)</li>
+                <table class="table">
+                    <caption>List of users</caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">STT</th>
+                        <th scope="col">Tên Ngành</th>
+                        <th scope="col">Mã Ngành</th>
+                        <th scope="col">Ngành,nghề kinh doanh chính</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </ol>
+          </div>
+
+          <div className="nine fl-end ">
+            <button type="button" className="btn btn-success ">Lưu</button>
+            <button type="button" className="btn btn-danger ml-20">Lưu và Thoát</button>
+          </div>
+        </div>
+          
+          <div className="col-xs-2 col-sm-2 col-md-2 col-lg-2 content-right fixed  ">
+            <p className="addData">Trường dữ liệu</p>
+            <Boxes />
+          </div>
+
+        </div>
+
+      </div>
+      </DndProvider>
+     
+    </div>

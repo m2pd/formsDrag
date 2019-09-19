@@ -1,0 +1,17 @@
+.box-scroll{
+        display: flex;
+    flex-direction: column;
+    clear: both;
+    text-align: center;
+    overflow-x: auto;
+    overflow-y: scroll;
+    /* height: 100vh; */
+    box-sizing: content-box
+}
+.box-scroll::-webkit-scrollbar { 
+    display: none;  
+}
+.box-scroll {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}

@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+.mt-30{
+    margin-top: 30px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+
+.group-inline{
+    display: flex;
+    width: 100%;
+   
+}
+.fl-col{
+    display: flex;
+    flex-direction: column
+}
+/* .dustbin{
+    
+ height: 1.5rem;
+ width: 100%;
+ margin-bottom: 1.5rem;
+ border-radius:1rem;
+ color: black;
+ text-align: center;
+ font-size: 1rem;
+ line-height: normal;
+ float: left;
+
+} */
+.full .dustbin{
+    height: 5rem;
+}
+.fl-end{
+    display: flex;
+    justify-content: flex-end;
+}
+/* .fixed{
+    position: fixed;
+    right: 0;
+    top:0
+} */
+.mt-50{
+    margin-top: 50px;
+}
+.content-left{
+    padding: 50px
+}
+/* .content-right{
+    padding: 30px;
+    border: 1px solid gray
+} */
+.right-customer .card-header{
+    background: 	#4dbd74;
+    color: #fff;
+    
+}
+.right-customer {
+    position: relative;
+}
+.left-customer .dusti input {
+    height: 100px;
+}
+.right-customer .right .card-bod{
+    /* position: fixed; */
+    height: calc(100vh - 250px);
+}
+.right-customer .right-active{
+    position: fixed;
+    top:60px;
+}
+.right-customer .right-active .card-body{
+    height: calc(100vh - 210px);
+}
+.right-customer .footer{
+    position: relative;
+    cursor: pointer;
+}
+.right-customer .right .box-scroll{
+    height: calc(100vh - 350px);
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+.right-customer .right-active .box-scroll{
+    height: 51vh;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+@keyframes bg {
+    0% {
+        background-size:    0 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    25% {
+        background-size:    100% 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    50% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            0 3px,
+                            3px 0;
+    }
+    75% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 0;
+    }
+    100% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+    }
+}
+.boder-right{
+
+    margin: 15px;
+    padding: 0.8em;
+    
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+    background-size:    100% 3px,
+                        3px 100%,
+                        100% 3px,
+                        3px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+.boder-right:hover {
+    animation-play-state: running;
+}
+.addData{
+    text-align: center;
+    padding: 10px;
+    background: #57bd57;
+    border: 1px solid greenyellow;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
